@@ -40,7 +40,7 @@ biocLite(c("Biobase"))
 ```
 
 
-## Load the data from the web
+## Load the data from the web- close connection after uploading
 
 ```{r load_data}
 con=url("http://bowtie-bio.sourceforge.net/recount/ExpressionSets/bodymap_eset.RData")
